@@ -1,0 +1,452 @@
+body {
+  background-color: #FFF;
+  font-family: "Lato";
+  font-weight: 300;
+  color: #FFF;
+}
+
+h1, h2, h3, h4, h6 {
+  font-family: "Ubuntu";
+}
+
+h5 {
+color: #FFFD95;
+font-family: "Ubuntu";
+}
+
+hr {
+  border-style: dotted none none none;
+  height: 0;
+  border-width: 5px;
+  width: 10%;
+  margin: 20px auto;
+}
+
+.fa-circle-info {
+  color: #FFF;
+}
+
+/* Title and Nav Bar Section*/
+.title-div {
+  background-color: #39A388;
+  padding: 1% 7%;
+}
+
+.navbar a {
+  font-family: "Lato" !important;
+  font-weight: 300;
+  font-size: 1.35rem !important;
+  color: #FFF !important;
+}
+
+.navbar .on-page {
+  color: #FFFD95 !important;
+}
+
+.navbar a:hover {
+  color: #FFC3E7 !important;
+}
+
+.brand-logo {
+  width: 350px;
+  height: auto;
+}
+
+/* Welcome Section Homepage */
+.welcome-div {
+  padding: 2% 4% 4% 7%;
+  background-color: #39A388;
+  margin: 0;
+}
+
+.welcome-div-left {
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+.welcome-div-right {
+  text-align: right;
+}
+
+.welcome-heading {
+  font-size: 3.5rem;
+  color: #FFFD95;
+}
+
+.about-wee {
+  padding: 10px 20px 10px 0px;
+  font-size: 1.3rem;
+}
+
+.all-teachers-image {
+  width: 50rem;
+  height: auto;
+}
+
+/* Tour and Forms Button */
+.tour-forms-button {
+  color: #FFFFFF;
+  background-color: #00028C;
+  font-family: "Ubuntu";
+  width: 17rem;
+}
+
+.tour-forms-button:hover,
+.tour-forms-button:focus,
+.tour-forms-button:active,
+.tour-forms-button.active,
+.open .dropdown-toggle.tour-forms-button {
+  color: #FFFFFF;
+  background-color: #E3A4CA;
+}
+
+.tour-forms-button:active,
+.tour-forms-button.active,
+.open .dropdown-toggle.tour-forms-button {
+  background-image: none;
+}
+
+.tour-forms-button.disabled,
+.tour-forms-button[disabled],
+fieldset[disabled] .tour-forms-button,
+.tour-forms-button.disabled:hover,
+.tour-forms-button[disabled]:hover,
+fieldset[disabled] .tour-forms-button:hover,
+.tour-forms-button.disabled:focus,
+.tour-forms-button[disabled]:focus,
+fieldset[disabled] .tour-forms-button:focus,
+.tour-forms-button.disabled:active,
+.tour-forms-button[disabled]:active,
+fieldset[disabled] .tour-forms-button:active,
+.tour-forms-button.disabled.active,
+.tour-forms-button[disabled].active,
+fieldset[disabled] .tour-forms-button.active {
+  background-color: #00028C;
+}
+
+.tour-forms-button .badge {
+  color: #00028C;
+  background-color: #FFFFFF;
+}
+
+/* Programs Section on Home Page*/
+#programs-homepage {
+  background-color: #F0F0F0;
+  padding: 4% 3%;
+  text-align: center;
+}
+
+#programs-homepage p, .programs-homepage-section-heading p{
+  color: #696969;
+  font-size: 1.25rem;
+}
+
+.programs-homepage-section-heading {
+  color: #00028C;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.mandela-quote {
+  font-size: 1.25rem;
+  padding-bottom: 15px;
+}
+
+.programs-card {
+  padding: 15px 20px;
+}
+
+.card-header {
+  background-color: #00028C;
+}
+
+.age-text {
+  margin-top: 10px;
+}
+
+.program-button {
+  color: #696969;
+  background-color: #FFFD95;
+  border-color: #FFFFFF;
+  font-family: "Ubuntu";
+}
+
+.program-button:hover,
+.program-button:focus,
+.program-button:active,
+.program-button.active,
+.open .dropdown-toggle.program-button {
+  color: #FFFFFF;
+  background-color: #E3A4CA;
+  border-color: #FFFFFF;
+}
+
+.program-button:active,
+.program-button.active,
+.open .dropdown-toggle.program-button {
+  background-image: none;
+}
+
+.program-button.disabled,
+.program-button[disabled],
+fieldset[disabled] .program-button,
+.program-button.disabled:hover,
+.program-button[disabled]:hover,
+fieldset[disabled] .program-button:hover,
+.program-button.disabled:focus,
+.program-button[disabled]:focus,
+fieldset[disabled] .program-button:focus,
+.program-button.disabled:active,
+.program-button[disabled]:active,
+fieldset[disabled] .program-button:active,
+.program-button.disabled.active,
+.program-button[disabled].active,
+fieldset[disabled] .program-button.active {
+  background-color: #FFC3E7;
+  border-color: #FFFFFF;
+}
+
+.program-button .badge {
+  color: #FFC3E7;
+  background-color: #FFFFFF;
+}
+
+/* Forms Page */
+
+.forms-button-row{
+  background-color: #F0F0F0;
+}
+
+.forms-head-div {
+  text-align: center;
+  padding: 0% 4% 2% 4%;
+  background-color: #39A388;
+}
+
+.forms-header {
+  color: #FFFD95;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.forms-button-row {
+  padding: 3% 0% 4%;
+  margin: 0;
+}
+
+.forms-message {
+  font-size: 1.25rem;
+  color: #FFF;
+}
+
+.forms-button {
+  margin: 5% 0% 0 0%;
+}
+
+/* Shared Staff and Programs CSS */
+#teachers, #special-programs {
+  background-color: #F0F0F0;
+  padding-bottom: 40px;
+}
+
+.staff, .our-programs {
+  background-color: #39A388;
+}
+
+.staff-teachers-heading, .program-heading {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.staff-headline-div, .program-headline-div {
+  text-align: center;
+  padding: 2% 0;
+
+  color: #FFFD95;
+}
+
+.staff-div-top, .program-div-top {
+  padding: 0 0 2% 17.5%;
+  margin: 0;
+}
+
+.staff-div-bottom, .program-div-bottom {
+  padding: 2% 0 4% 15%;
+  margin: 0;
+}
+
+.staff-info-div, .program-info-div {
+  padding-top: 2%;
+}
+
+.name-icon-div {
+  margin: 0;
+  padding: 0;
+}
+
+.butterfly-worm-icon {
+  width: 35px;
+  height: auto;
+}
+
+.staff-name, .program-name {
+  color: #FFC3E7;
+}
+
+.staff-pics, .program-pics {
+  width: 250px;
+  height: auto;
+}
+
+.about-staff, .about-program {
+  font-size: 1.3rem;
+}
+
+.teacher-headline-div, .special-program-div {
+  text-align: center;
+  padding: 2% 0 1%;
+  color: #00028C;
+}
+
+/* Staff Teachers Page */
+
+.teacher-name-text {
+  color: #01676B;
+  text-align: center;
+}
+
+.staff-pic-div-right {
+  padding-top: 1%;
+}
+
+.teacher-image {
+  width: auto;
+  height: 40%;
+  margin: auto;
+  border-radius: 25px;
+}
+
+.grade-text {
+  font-family: "Lato";
+  text-align: center;
+  color: #696969;
+  font-size: 1.25rem;
+  padding: 8px 0;
+}
+
+.prev-button {
+  margin-left: 4%;
+}
+
+.next-button {
+  margin-right: 4%;
+}
+
+/* Programs Page */
+
+#special-programs {
+  padding: 2% 3% 4%;
+  text-align: center;
+}
+
+.program-pic-div-right {
+  padding-top: 5%;
+}
+
+.tuition {
+  color: #FFFD95;
+  margin-bottom: 0;
+}
+
+.tuition-price {
+  font-size: 1rem;
+  padding-top: -10px;
+}
+
+.terms-conditions {
+    font-size: .75rem;
+}
+
+.registration-terms {
+  text-align: center;
+}
+
+.chapel-message {
+    font-size: 1.27rem;
+    color: #696969;
+}
+
+.move-grove-message {
+font-size: 1.65rem;
+color: #696969;
+}
+
+.lunch-bunch-message {
+  font-size: 1.25rem;
+  color: #696969;
+}
+
+/* Forms Page */
+
+/* Footers */
+#footer {
+  background-color: #01676B;
+  padding: 10px 0px;
+  border: 0 10px 25px;
+  text-align: center;
+}
+
+.footer-icon {
+  font-size: 2rem;
+  padding: 15px 10px 10px;
+}
+
+.phone-numbers {
+  font-family: "Ubuntu";
+  color: #ffffff;
+}
+
+.contact-type {
+  color: #FFFD95;
+}
+
+.copyright-text {
+  font-family: "Lato";
+  color: #ffffff;
+  padding-bottom: 5px;
+}
+
+.footer-icon {
+  color: #FFF;
+}
+
+.footer-icon:hover {
+  color: #FFC3E7;
+}
+
+/* Media */
+@media (max-width: 1028px) {
+  .welcome-div-left {
+    text-align: center;
+  }
+
+  .staff-div-top, .program-div-top {
+    padding: 0 3% 3%;
+    text-align: center;
+  }
+
+  .staff-div-bottom, .program-div-bottom {
+    padding: 3% 3% 0%;
+    text-align: center;
+  }
+}
+
+@media (min-height: 830px) {
+
+  .footer-div {
+
+      margin-bottom: 15%;
+
+  }
+}
