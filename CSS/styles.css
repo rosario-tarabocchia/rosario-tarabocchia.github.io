@@ -54,7 +54,7 @@ hr {
 
 /* Welcome Section Homepage */
 .welcome-div {
-  padding: 2% 4% 4% 7%;
+  padding: 4%;
   background-color: #39A388;
   margin: 0;
 }
@@ -66,7 +66,7 @@ hr {
 }
 
 .welcome-div-right {
-  text-align: right;
+  padding-right: 1%;
 }
 
 .welcome-heading {
@@ -241,7 +241,9 @@ fieldset[disabled] .program-button.active {
 }
 
 .forms-button {
-  margin: 5% 0% 0 0%;
+  margin: 0% 0% 10% 0%;
+  height: 40%;
+  width: 100%;
 }
 
 /* Shared Staff and Programs CSS */
@@ -267,13 +269,15 @@ fieldset[disabled] .program-button.active {
 }
 
 .staff-div-top, .program-div-top {
-  padding: 0 0 2% 17.5%;
+  padding: 2% 0 4%;
   margin: 0;
+  text-align: center;
 }
 
 .staff-div-bottom, .program-div-bottom {
-  padding: 2% 0 4% 15%;
+  padding: 2% 0 5%;
   margin: 0;
+  text-align: center;
 }
 
 .staff-info-div, .program-info-div {
@@ -350,8 +354,9 @@ fieldset[disabled] .program-button.active {
   text-align: center;
 }
 
+
 .program-pic-div-right {
-  padding-top: 5%;
+  padding-top: 3%;
 }
 
 .tuition {
@@ -372,17 +377,7 @@ fieldset[disabled] .program-button.active {
   text-align: center;
 }
 
-.chapel-message {
-    font-size: 1.27rem;
-    color: #696969;
-}
-
-.move-grove-message {
-font-size: 1.65rem;
-color: #696969;
-}
-
-.lunch-bunch-message {
+.special-program-message {
   font-size: 1.25rem;
   color: #696969;
 }
@@ -426,27 +421,58 @@ color: #696969;
 }
 
 /* Media */
+
+@media (min-width: 1430px) {
+  .welcome-div {
+    padding: 2% 4% 4% 7%;
+  }
+
+
+
+}
+
+@media (min-width: 1024px) {
+  .staff-div-top, .program-div-top {
+    padding: 0 8% 3%;
+    text-align: left;
+  }
+
+  /* .program-pic-div-right {
+    padding-top: 5%;
+  } */
+
+  .staff-div-bottom, .program-div-bottom {
+    padding: 3% 8%;
+    text-align: left;
+  }
+
+
+}
+
+
 @media (max-width: 1028px) {
   .welcome-div-left {
     text-align: center;
   }
 
-  .staff-div-top, .program-div-top {
-    padding: 0 3% 3%;
-    text-align: center;
-  }
 
-  .staff-div-bottom, .program-div-bottom {
-    padding: 3% 3% 0%;
-    text-align: center;
-  }
 }
 
-@media (min-height: 830px) {
+@media (max-width: 768px) {
+  .forms-button {
+    width: 70%;
+    height: 30%;
+
+  }
+
+
+}
+
+/* @media (min-height: 830px) {
 
   .footer-div {
 
       margin-bottom: 15%;
 
   }
-}
+} */
